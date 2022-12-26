@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 
 .App{
   margin: 0 auto;
@@ -29,7 +31,7 @@
   animation: color 2s infinite;
   color: rgba(174, 43, 226, 0.247);
   font-size: 70vmin;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .container-info{
  
@@ -48,9 +50,19 @@
  z-index: 1;
 }
 
+.mapas{
+  background-color: aqua;
+  top: 0px;
+  left:0px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  z-index: 3;
+}
+
 .teInvito{
   font-size: 4vmin;
-  font-family: 'Satisfy', cursive;
+  font-family: 'Great Vibes', cursive;
 }
 .Micumple{
   font-size: 9vmin;
@@ -76,6 +88,10 @@ background: rgb(250, 201, 235);
 .domicilo:hover{
   background: rgb(170, 104, 236);
   translate:  -2px -5px -5px -2px;
+
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 8px rebeccapurple;
+   
 }
 
 .te-espero{
@@ -86,7 +102,7 @@ background: rgb(250, 201, 235);
   line-height: 30px;
   font-size: 6vmin;
 text-align: center;
-font-family: 'Satisfy', cursive;
+font-family: 'Great Vibes', cursive;
 color:  rgb(250, 72, 191);
 animation: color 1s infinite;
 }
