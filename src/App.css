@@ -4,22 +4,23 @@
 
 .App{
   margin: 0 auto;
-  background-image: url('/public/hoja.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-width: 60vmax;
   height: 100vh;
   position: relative;
  
 }
+.fondo{
+  width: 100%;
+ 
+}
 
 .container-info{
-  
+ 
   position: absolute;
-  top: 70px;
+  top: 30px;
   left: 50px;
   right: 50px;
   bottom: 60px;
+  
 
   display: flex;
   flex-direction: column;

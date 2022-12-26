@@ -7,6 +7,7 @@ function App() {
 
   return (
     <div className="App">
+      <img src="/hoja.jpg" alt="" className="fondo" />
       <div className='container-info'>
         <h2 className="teInvito">Te Invito a celebrar</h2>
         <h2 className="Micumple">Mi Cumpleaños</h2>
