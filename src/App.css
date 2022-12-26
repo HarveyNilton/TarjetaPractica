@@ -26,6 +26,7 @@
 
 }
 .edad{
+  animation: color 2s infinite;
   color: rgba(174, 43, 226, 0.247);
   font-size: 70vmin;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
