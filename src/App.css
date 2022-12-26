@@ -2,6 +2,7 @@
 
 .App{
   margin: 0 auto;
+ max-width: 400px;
   height: 100vh;
   position: relative;
  
@@ -22,14 +23,15 @@
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 
 }
 
 .teInvito{
-  font-size: 4vmin;
-  padding-top: 75px;
-  padding-bottom: 3vmin;
+  font-size: 0.9rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
   font-family: 'Satisfy', cursive;
 }
 .Micumple{
@@ -80,6 +82,6 @@ animation: color 1s infinite;
 
 @media(min-width: 400px){
   .App{
-    width: 70vmin;
+    
   }
 }
