@@ -15,34 +15,33 @@
 .container-info{
  
   position: absolute;
-  top: 30px;
-  left: 50px;
-  right: 50px;
-  bottom: 60px;
+  top: 0px;
+  left:0px;
+  right: 0px;
+  bottom: 0px;
   
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 9px;
 
 }
 
 .teInvito{
-  font-size: 0.9rem;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  font-size: 4vmin;
   font-family: 'Satisfy', cursive;
 }
 .Micumple{
-  font-size: 8vmin;
-  padding-bottom: 15px;
+  font-size: 7vmin;
+
   font-family: 'Satisfy', cursive;
 }
 .fecha-hora{
-  padding-bottom: 15px;
+
   text-align: center;
-  font-size: 5vmin;
+  font-size: 3vmin;
 }
 .domicilo{
   color:  rgb(250, 72, 191);
@@ -53,7 +52,7 @@ background: rgb(250, 201, 235);
   cursor: pointer;
  border: 1px solid rgb(250, 72, 191);
  border-radius: 5px;
- font-size: 5vmin;
+ font-size: 3vmin;
 }
 .domicilo:hover{
   background: rgb(170, 104, 236);
@@ -61,13 +60,12 @@ background: rgb(250, 201, 235);
 }
 
 .te-espero{
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: 5vmin;
+
+  font-size: 3vmin;
 }
 .names{
-  line-height: 25px;
-  font-size: 9vmin;
+  line-height: 40px;
+  font-size: 6vmin;
 text-align: center;
 font-family: 'Satisfy', cursive;
 color:  rgb(250, 72, 191);
