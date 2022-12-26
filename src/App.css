@@ -1,6 +1,4 @@
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 .App{
   margin: 0 auto;
@@ -29,22 +27,24 @@
 }
 
 .teInvito{
-  font-size: 1rem;
-  font-family: cursive;
-  padding-top: 15vmax;
-  padding-bottom: 35px;
+  font-size: 3.6vmin;
+  padding-top: 15vmin;
+  padding-bottom: 3vmin;
+  font-family: 'Satisfy', cursive;
 }
 .Micumple{
-  font-size: 2rem;
-  padding-bottom:26px ;
+  font-size: 6vmin;
+  padding-bottom: 3vmin;
+  font-family: 'Satisfy', cursive;
 }
 .fecha-hora{
-  padding-bottom: 25px;
+  padding-bottom: 3vmax;
   text-align: center;
+  font-size: 0.9rem;
 }
 .domicilo{
   color:  rgb(250, 72, 191);
-  padding: 10px;
+  padding: 7px;
   display: flex;
   justify-content: center;
 background: rgb(250, 201, 235);
@@ -58,13 +58,15 @@ background: rgb(250, 201, 235);
 }
 
 .te-espero{
-  padding-top: 15px;
-  padding-bottom: 10px;
+  padding-top: 3vmax;
+  padding-bottom: 3vmax;
+  font-size: 0.9rem;
 }
 .names{
-  font-size: 1.6rem;
+  line-height: 6vmax;
+  font-size: 2rem;
 text-align: center;
-font-family: cursive;
+font-family: 'Satisfy', cursive;
 color:  rgb(250, 72, 191);
 animation: color 1s infinite;
 }
