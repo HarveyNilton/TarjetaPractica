@@ -9,6 +9,7 @@ import {
   import "leaflet/dist/leaflet.css";
 
 
+
 const Maps = () => {
 
     const svgMarker = {
@@ -27,7 +28,7 @@ const Maps = () => {
         <MapContainer className='map'
         style={{ width: "90%", height: "40vh" }}
         zoom={16}
-        center={[-3.7511446, -73.2640492]}
+        center={[-3.761259, -73.268645]}
         scrollWheelZoom={false}
         fadeAnimation={true}
         markerZoomAnimation={true}
@@ -36,7 +37,7 @@ const Maps = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <CircleMarker
+       { /* <CircleMarker
           center={[-3.7511446, -73.2640492]}
           color={"#000000"}
           fillColor={"#FDD876"}
@@ -44,13 +45,16 @@ const Maps = () => {
           fillOpacity={true}
           weight={1}
           icon={svgMarker}
-        />
-        {/* <Marker
-          position={[51.505, -0.09]}
+    />*/}
+        
+        { <Marker
+          position={[-3.761259, -73.268645]}
           
-        /> */}
+        /> }
       </MapContainer>
+      
        </div>
+       
     );
 };
 

@@ -117,9 +117,3 @@ animation: color 1s infinite;
   1000%{color:  rgb(248, 225, 93);}
 }
 
-
-@media(min-width: 400px){
-  .App{
-    
-  }
-}
