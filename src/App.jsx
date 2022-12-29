@@ -1,31 +1,21 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import Maps from './components/Maps'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(true)
 
   const mostarMapa = ()=>{
-    mapaDomicilio()
+    setCount(!count)
   }
 
-  function mapaDomicilio(){
-    var coord = {lat:-34.5956145 ,lng: -58.4431949};
-    var map = new google.maps.Map(<div className='mapas'></div>,{
-      zoom: 10,
-      center: coord
-    });
-    var marker = new google.maps.Marker({
-      position: coord,
-      map: map
-    });
-
-  }
+ 
 
 
   return (
     <div className="App">
-      
+      {count && <Maps/>}
       <img src="/hoja.jpg" alt="" className="fondo" />
       <div className='edad-conta'>
        <h1 className='edad'>5</h1>
