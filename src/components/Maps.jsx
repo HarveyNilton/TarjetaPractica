@@ -9,6 +9,8 @@ import {
   } from "react-leaflet";
   import "leaflet/dist/leaflet.css";
 
+
+
 const Maps = () => {
 useEffect(()=>{
   initMap()
@@ -16,6 +18,7 @@ useEffect(()=>{
 
   return (
     <div id='map'></div>
+    
   )
 
    /* const svgMarker = {
@@ -70,22 +73,44 @@ function initMap() {
     zoom: 17,
     center: uluru,
   });
-  // The marker, positioned at Uluru
+
+  const infoWindow = new google.maps.InfoWindow({
+    content: "",
+    disableAutoPan: true,
+  });
+
+   
+    const label = "Bienvenido! a mi Casa";
+    const marker = new google.maps.Marker({
+      position: uluru,
+      map: map,
+      optimized: false,
+    })
+    // markers can only be keyboard focusable when they have click listeners
+    // open info window when marker is clicked
+    marker.addListener("click", () => {
+      infoWindow.setContent(label);
+      infoWindow.open(map, marker);
+    });
+    
+}
+
+  /*// The marker, positioned at Uluru
   const marker = new google.maps.Marker({
     position: uluru,
+    icon: '/com.png',
     map: map,
-    title:'hola,bs',
-    label: 'Mi Direccion',
+
     optimized: false,
   });
 
   marker.addListener("click", () => {
-      /*alert(marker.getTitle())
+      alert(marker.getTitle())
       infoWindow.close();
       infoWindow.setContent(marker.getTitle());
-      infoWindow.open(marker.getMap(), marker);*/
+      infoWindow.open(marker.getMap(), marker);
     });
 }
-
+*/
 
 export default Maps;
