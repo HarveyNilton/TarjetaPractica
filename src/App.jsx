@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Maps from './components/Maps'
+import Perfil from './components/Perfil'
 
 
 
@@ -22,6 +23,7 @@ function App() {
        <h1 className='edad'>5</h1>
       </div>
       <div className='container-info'>
+        <Perfil/>
         <h2 className="teInvito">Te Invito a celebrar</h2>
         <h2 className="Micumple">Mi Cumpleaños</h2>
         <h3 className="fecha-hora">El dia Sabado 11 de Junio <br />a partir de las 08:00pm</h3>
