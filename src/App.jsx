@@ -32,7 +32,11 @@ function App() {
         <h3 onClick={mostarMapa} className="domicilo">En mi domicilio</h3>
         <h3 className="te-espero">Te espero</h3>
         <h1 className="names">Maria del Pilar <br /> Salazar Ruiz</h1>
-        <a href={`https://web.whatsapp.com/send?phone=${+51964505483}&text=${"Hola!! Miky gracias por invitarme a tus 5 añitos, cuenta con mi presencia "}&app_absent=0`} target="_blank">
+        
+       {/*<a href={`https://web.whatsapp.com/send?phone=${+51964505483}&text=${"Hola!! Miky gracias por invitarme a tus 5 añitos, cuenta con mi presencia "}&app_absent=0`} target="_blank">
+          <button className='btWhatsapp'>Confirmar asistencia</button>
+        </a> */}
+        <a href={`https://api.whatsapp.com/send?phone=${+51964505483}&text=${"Hola!! Miky gracias por invitarme a tus 5 añitos, cuenta con mi presencia "}`} target="_blank">
           <button className='btWhatsapp'>Confirmar asistencia</button>
         </a> 
       </div>
