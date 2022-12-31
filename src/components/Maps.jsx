@@ -47,10 +47,8 @@ const Maps = () => {
           icon={svgMarker}
     />*/}
         
-        { <Marker
-          position={[-3.761259, -73.268645]}
-          
-        /> }
+        <Marker position={[-3.761259, -73.268645]}/> 
+        
       </MapContainer>
       
        </div>
