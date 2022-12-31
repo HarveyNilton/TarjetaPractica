@@ -5,7 +5,7 @@ import Maps from './components/Maps'
 
 
 function App() {
-  const [count, setCount] = useState(true)
+  const [count, setCount] = useState(false)
 
   const mostarMapa = ()=>{
     setCount(!count)
