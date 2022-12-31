@@ -62,7 +62,7 @@
   margin: 0 auto;
   opacity: 0.9;
   box-shadow: 2px 2px 8px grey;
-  height: 250px;
+  height: 200px;
   width: 90%;
 }
 
@@ -117,5 +117,15 @@ animation: color 1s infinite;
   0%{ color:  rgb(72, 134, 250);};
   50%{color:  rgb(250, 72, 191);};
   1000%{color:  rgb(248, 225, 93);}
+}
+
+.btWhatsapp{
+  background: #00bb2d;
+  height: 30px;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+  font-size: 0.7rem;
+  text-transform: uppercase;
 }
 

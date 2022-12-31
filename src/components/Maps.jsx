@@ -80,8 +80,8 @@ function initMap() {
   });
 
   marker.addListener("click", () => {
-      alert(marker.getTitle())
-      /*infoWindow.close();
+      /*alert(marker.getTitle())
+      infoWindow.close();
       infoWindow.setContent(marker.getTitle());
       infoWindow.open(marker.getMap(), marker);*/
     });
